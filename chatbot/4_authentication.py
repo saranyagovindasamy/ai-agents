@@ -9,7 +9,7 @@ from nutrition_agent import nutrition_agent
 
 dotenv.load_dotenv()
 
-
+#authentication
 @cl.on_chat_start
 async def on_chat_start():
     session = SQLiteSession("conversation_history")
